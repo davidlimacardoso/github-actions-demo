@@ -11,5 +11,7 @@ jobs:
 
     - name: Run a simple github action
       run: echo "this workflow is running with success, for this particular action"
-        
+
+    - name: Simulating error
+      run: echo "error talkin place"; exit 1
       
