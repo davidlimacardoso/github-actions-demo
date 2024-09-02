@@ -1,0 +1,14 @@
+name: linting-python-code
+
+on: push
+
+jobs:
+  python-linting-code:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Super-linter
+        uses: super-linter/super-linter@v7.1.0 # x-release-please-version
+        env:
+          # To report GitHub Actions status checks
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
