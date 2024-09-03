@@ -6,4 +6,4 @@ print("Hello world!")
 
     sum=a+b
 
-    print(sum)
+print(sum)
