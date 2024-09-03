@@ -1,9 +1,9 @@
 print("Hello world!")
 
-a=5
+        a=5
 
-b=6
+                        b=6
 
-sum=a+b
+    sum=a+b
 
-print(sum)
+    print(sum)
